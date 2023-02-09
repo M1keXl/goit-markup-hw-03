@@ -353,13 +353,15 @@ column-gap: 24px;
 row-gap: 48px;
 }
 .proj-list-item{
-border: 1px solid var(--secondary-text-color-dark-theme);
 width: 360px;
 }
 .prj-item-content{
     padding-top: 32px;
     padding-bottom: 32px;
     padding-left: 16px;
+    border-left: 1px solid var(--secondary-text-color-dark-theme);
+    border-right: 1px solid var(--secondary-text-color-dark-theme);
+    border-bottom: 1px solid var(--secondary-text-color-dark-theme);
     background-color: var(--primary-bg-color);
 
 }
