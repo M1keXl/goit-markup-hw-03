@@ -305,6 +305,12 @@ background-color: var(--links-active);
     border: none;
     cursor: pointer;
     font-family: inherit;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 24px;
+        padding-right: 24px;
+         box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+        border-radius: 4px;
 }
 .button-list:focus, .button-list:hover{
 color: var(--primary-text-color-dark-theme);
@@ -312,7 +318,7 @@ background-color: var(--links-active);
 }
 .name-projects{
 
- 
+ margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -326,4 +332,34 @@ background-color: var(--links-active);
         letter-spacing: 0.02em;
         color: var(--secondary-text-color-white-theme);
         order: 1;
+}
+.portfolio-section{
+            padding-top: 96px;
+            padding-bottom: 96px;
+        
+}
+.sort-buttons{
+display: flex; 
+margin-bottom: 72px;
+justify-content: center;
+}
+.sort-item:not(:last-child) {
+    margin-right: 24px;
+}
+.proj-list{
+display: flex;
+flex-wrap: wrap;
+column-gap: 24px;
+row-gap: 48px;
+}
+.proj-list-item{
+border: 1px solid var(--secondary-text-color-dark-theme);
+width: 360px;
+}
+.prj-item-content{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 16px;
+    background-color: var(--primary-bg-color);
+
 }
