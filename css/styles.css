@@ -6,7 +6,7 @@
 --primary-text-color-dark-theme:#ffffff;
 --links-active:#404BBF;
 }
-.body {
+body {
     color: var(--primary-text-color-white-theme);
     font-family: 'Roboto', sans-serif;
     background-color: var(--primary-bg-color);
@@ -60,8 +60,6 @@ button {
         overflow: hidden;
 }
 .header{
-padding-top:24px;
-padding-bottom: 24px;
 border-bottom: 1px solid var(--secondary-text-color-dark-theme);
 
 }
@@ -118,8 +116,8 @@ margin-left: auto;
     margin-right: 40px;
 }
 .menu-link{
-
-    
+display: block;
+        padding: 24px 0;
         font-weight: 500;
         line-height: 1.5;    
         letter-spacing: 0.02em; 
@@ -173,7 +171,7 @@ width: 264px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.02em;
+    letteІr-spacing: 0.02em;
   margin-bottom: 8px;
 }
 .works{
