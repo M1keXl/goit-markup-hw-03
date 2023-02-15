@@ -81,7 +81,7 @@ margin-right: 76px;
 background-color: var(--primary-text-color-white-theme);
 padding-top: 188px;
 padding-bottom: 188px;
-text-align: center;
+
 }
 
 .logo{
@@ -166,12 +166,16 @@ color: var(--links-active);
 width: 264px;
 
 }
+.nav{
+    display: flex;
+    align-items: center;
+}
 .skill-name{
   
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letteІr-spacing: 0.02em;
+    letter-spacing: 0.02em;
   margin-bottom: 8px;
 }
 .works{
@@ -255,12 +259,13 @@ border-radius: 0px 0px 4px 4px;
         color: var(--primary-text-color-dark-theme);
         background-color: #4D5AE5;
         border: none;
-        display: inline-block;
+        display: block;
         padding-top: 16px;
         padding-bottom: 16px;
         padding-left: 32px;
         padding-right: 32px;
         border-radius: 4px;
+        margin: 0 auto;
 }
 .hero-button:hover, .hero-button:focus{
 background-color: var(--links-active);
@@ -274,7 +279,6 @@ background-color: var(--links-active);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.04em;   
